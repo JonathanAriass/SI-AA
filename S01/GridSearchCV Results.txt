@@ -1,0 +1,19 @@
+GridSearchCV Results:
+   mean_fit_time  std_fit_time  mean_score_time  std_score_time  param_n_neighbors               params  split0_test_score  split1_test_score  split2_test_score  split3_test_score  split4_test_score
+0       0.000605      0.000153         0.005923        0.002087               3   {'n_neighbors': 3}           0.953125     0.937500           0.960938           0.953125           0.914062  
+1       0.000432      0.000026         0.004574        0.000313               7   {'n_neighbors': 7}           0.945312     0.937500           0.937500           0.968750           0.906250   
+2       0.000427      0.000011         0.005531        0.001079               11  {'n_neighbors': 11}          0.953125     0.953125           0.945312           0.953125           0.937500   
+
+   mean_test_score  std_test_score  rank_test_score  
+0         0.943750        0.016683                2  
+1         0.939063        0.020010                3  
+2         0.948438        0.006250                1  
+
+
+
+Hiperparametros: {'n_neighbors': [3, 7, 11]}
+Mejor valor de k: 11
+Accuracy: 0.94
+Matriz de confusión:
+ [[144   6]
+ [  3   7]]
